@@ -45,9 +45,15 @@ int main(void)
 	print_dlistint(head);
 	printf("-----------------\n");
 	delete_dnodeint_at_index(&head, 0);
+	print_dlistint(head);
+
 	printf("-----------------\n");
 	delete_dnodeint_at_index(&head, 0);
+	print_dlistint(head);
+
 	printf("-----------------\n");
+	print_dlistint(head);
+
 	delete_dnodeint_at_index(&head, 0);
 	printf("-----------------\n");
 	delete_dnodeint_at_index(&head, 0);
